@@ -1,0 +1,80 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "shirts",
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2022/8/23/18/551886_1661246483199.png"
+    },
+    {
+      "id": "2",
+      "name": "pants",
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2022/8/22/18/18783_1661159105201.png"
+    },
+    {
+      "id": "3",
+      "name": "vest",
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2022/9/7/10/918997_1662515279620.png"
+    },
+    {
+      "id": "4",
+      "name": "shirts",
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2022/8/23/18/551886_1661246483199.png"
+    },
+    {
+      "id": "5",
+      "name": "pants",
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2022/8/22/18/18783_1661159105201.png"
+    },
+    {
+      "id": "6",
+      "name": "vest",
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2022/9/7/10/918997_1662515279620.png"
+    },
+    {
+      "id": "7",
+      "name": "shirts",
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2022/8/23/18/551886_1661246483199.png"
+    },
+    {
+      "id": "8",
+      "name": "pants",
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2022/8/22/18/18783_1661159105201.png"
+    },
+    {
+      "id": "9",
+      "name": "vest",
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2022/9/7/10/918997_1662515279620.png"
+    },
+    {
+      "id": "10",
+      "name": "shirts",
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2022/8/23/18/551886_1661246483199.png"
+    },
+    {
+      "id": "11",
+      "name": "pants",
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2022/8/22/18/18783_1661159105201.png"
+    },
+    {
+      "id": "12",
+      "name": "vest",
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2022/9/7/10/918997_1662515279620.png"
+    },
+    {
+      "id": "13",
+      "name": "shirts",
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2022/8/23/18/551886_1661246483199.png"
+    },
+    {
+      "id": "14",
+      "name": "pants",
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2022/8/22/18/18783_1661159105201.png"
+    }
+    ,
+    {
+      "id": "15",
+      "name": "vest",
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2022/9/7/10/918997_1662515279620.png"
+    }
+  ]
+}
