@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "shirts",
+      "price": 193700,
+      "checked": true,
+      "amounte": 1,
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2022/8/23/18/551886_1661246483199.png"
+    },
+    {
+      "id": 2,
+      "name": "pants",
+      "price": 128700,
+      "checked": true,
+      "amounte": 1,
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2022/8/22/18/18783_1661159105201.png"
+    },
+    {
+      "id": 3,
+      "name": "vest",
+      "price": 167700,
+      "checked": true,
+      "amounte": 1,
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2022/9/7/10/918997_1662515279620.png"
+    }
+  ]
+}
