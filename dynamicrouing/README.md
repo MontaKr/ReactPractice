@@ -4,4 +4,5 @@ useParams와 router를 이용하여 카드를 클릭할 시 데이터의 id값�
 filter 함수가 아닌 find 함수를 사용하여 데이터 값을 리턴
 
 ### CodeSandBox
+
 [https://codesandbox.io/s/dynamic-routing-xz4znr?file=/src/components/Cards.jsx:0-1676](https://codesandbox.io/s/dynamic-routing-xz4znr?file=/src/components/Cards.jsx:0-1676)
