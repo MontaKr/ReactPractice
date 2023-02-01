@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export default function App() {
   // declare hover state
-  const [choonsik, setChoonsik] = useState(true);
+  const [choonsik, setChoonsik] = useState(false);
   const [ryan, setRyan] = useState(false);
   const [apeech, setApeech] = useState(false);
   const [neo, setNeo] = useState(false);
