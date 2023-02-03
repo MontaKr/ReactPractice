@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "choosik",
+      "nameKr": "춘식이",
+      "greyed": 17.647059,
+      "blacked": 11.764706
+    },
+    {
+      "id": "2",
+      "name": "ryan",
+      "nameKr": "라이언",
+      "greyed": 88.235295,
+      "blacked": 82.352941
+    },
+    {
+      "id": "3",
+      "name": "apeach",
+      "nameKr": "어피치",
+      "greyed": 5.882353,
+      "blacked": 0
+    },
+    {
+      "id": "4",
+      "name": "neo",
+      "nameKr": "네오",
+      "greyed": 76.470588,
+      "blacked": 70.588235
+    },
+    {
+      "id": "5",
+      "name": "prodo",
+      "nameKr": "프로도",
+      "greyed": 41.176471,
+      "blacked": 35.294118
+    },
+    {
+      "id": "6",
+      "name": "tube",
+      "nameKr": "튜브",
+      "greyed": 100,
+      "blacked": 94.117647
+    },
+    {
+      "id": "7",
+      "name": "mooji",
+      "nameKr": "무지",
+      "greyed": 64.705882,
+      "blacked": 58.823529
+    },
+    {
+      "id": "8",
+      "name": "con",
+      "nameKr": "콘",
+      "greyed": 29.411765,
+      "blacked": 23.529412
+    },
+    {
+      "id": "9",
+      "name": "jayz",
+      "nameKr": "제이지",
+      "greyed": 52.941176,
+      "blacked": 47.058824
+    }
+  ]
+}
