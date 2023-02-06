@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "베이직 PU 아이언커버-리틀라이언",
+      "price": 89000,
+      "isSale": true,
+      "salePrice": 40040,
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2021/9/13/16/401914_1631518823080_thumb.jpg",
+      "isSoldOut": false
+    },
+    {
+      "id": 2,
+      "name": "럭키 니트 우드커버-리틀라이언",
+      "price": 44000,
+      "isSale": true,
+      "salePrice": 19790,
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2021/6/24/10/935319_1624496670801_thumb.jpg",
+      "isSoldOut": true
+    },
+    {
+      "id": 3,
+      "name": "실리콘 골프볼 케이스-리틀라이언",
+      "price": 22000,
+      "isSale": true,
+      "salePrice": 9890,
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2021/6/17/14/510062_1623906365932_thumb.jpg",
+      "isSoldOut": true
+    },
+    {
+      "id": 4,
+      "name": "프렌즈 비비드 양피 한손장갑-라이언(화이트)",
+      "price": 38000,
+      "isSale": false,
+      "salePrice": 0,
+      "img": "https://shopimg.kakaofriendsgolf.com/live/images/2021/4/28/9/298787_1619571118372_thumb.jpg",
+      "isSoldOut": false
+    }
+  ]
+}
