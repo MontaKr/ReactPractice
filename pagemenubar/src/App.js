@@ -1,12 +1,23 @@
-import { useEffect, useState } from "react";
+import * as React from "react";
+import { Reset } from "styled-reset";
 import styled from "styled-components";
 
 const item = [{ id: 1 }, { id: 2 }, { id: 3 }];
 
 export default function App() {
-  const [isPosition, setIsPosition] = useState(null);
+  const [isPosition, setIsPosition] = React.useState(1);
 
-  useEffect(() => {
+  const scrollMove = (a) => {
+    const target = document.querySelector(`.box${a}`);
+    const rect = target.getBoundingClientRect();
+    window.scrollTo({
+      top: window.screenY + rect.y,
+    });
+    console.log(a);
+    console.log("거리 :", window.screenY + document.querySelector(`.box${a}`));
+  };
+
+  React.useEffect(() => {
     window.addEventListener("scroll", () => {
       const target1 = document.querySelector(".box1");
       const rect1 = target1.getBoundingClientRect();
@@ -21,36 +32,43 @@ export default function App() {
         setIsPosition(2);
       }
 
-      if (rect3.y < 0) {
+      if (rect3.y < 50) {
         setIsPosition(3);
       }
     });
   }, [isPosition]);
 
   return (
-    <Wrap>
-      <div className="navi">
-        {item.map((item) => {
-          return (
-            <div
-              key={item.id}
-              className={`navi__box ${isPosition === item.id ? "active" : ""}`}
-            >
-              {item.id}
-            </div>
-          );
-        })}
-      </div>
-      <div className="box box1">1</div>
-      <div className="box box2">2</div>
-      <div className="box box3">3</div>
-    </Wrap>
+    <React.Fragment>
+      <Reset />
+      <Wrap>
+        <div className="navi">
+          {item.map((item) => {
+            return (
+              <div
+                onClick={() => {
+                  scrollMove(item.id);
+                }}
+                key={item.id}
+                className={`navi__box ${
+                  isPosition === item.id ? "active" : ""
+                }`}
+              >
+                {item.id}
+              </div>
+            );
+          })}
+        </div>
+        <div className="box box1">1</div>
+        <div className="box box2">2</div>
+        <div className="box box3">3</div>
+      </Wrap>
+    </React.Fragment>
   );
 }
 
 const Wrap = styled.div`
   border: 3px dotted black;
-  position: relative;
 
   .navi {
     border: 1px solid green;
@@ -96,6 +114,6 @@ const Wrap = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 1200px;
+    height: 1000px;
   }
 `;
